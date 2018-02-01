@@ -1,5 +1,6 @@
 # bash_script
-#script for alert ddos attack on server<br />
-#apt-get install whois && chmod +x ddos-test.sh && ./ddos-test.sh<br />
-#run script in cron<br />
-#add email address for send alert<br />
+#alert denial of service attacks<br />
+#apt-get install curl && chmod +x ddos-test.sh <br />
+#run script in cron  <br />
+#* * * * *  /path/ddos-test.sh <br />
+#add email or telegram address for send alert<br />
